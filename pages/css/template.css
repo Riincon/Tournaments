@@ -1,0 +1,107 @@
+body{
+  
+ background-image: url('https://cdn.discordapp.com/attachments/869765742327910410/1056884028898279524/thumb-1920-909912.png');
+ background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: blue;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 15px;
+  overflow: hidden;
+}
+
+nav li {
+  float: right;
+}
+
+nav a {
+  display: block;
+  font-family: 'Noto Sans', sans-serif;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: #111;
+}
+
+nav img{
+  position: absolute;
+  top: 10px;
+  width: 60px;
+  margin-left: 10px;
+  border-radius: 50%;
+}
+
+.container{
+  text-align: center;
+}
+
+.container h1{
+  font-family: 'Noto Sans', sans-serif;
+  margin-left: 10px;
+  text-align: center;
+  color: white;
+}
+
+.container p{
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 15px;
+  margin-left: 10px;
+  text-align: center;
+  color: white;
+}
+
+.container img{
+  border-radius: 50%;
+  display: block;  /* para que la imagen ocupe todo el ancho disponible */
+  margin: auto;
+  margin-top: 10px;
+  width: 200px;
+}
+.container a{
+  font-family: 'Noto Sans', sans-serif;
+  color: white;
+}
+
+
+.container button {
+  background-color: blue; /* color verde */
+  color: white; /* color blanco */
+  padding: 14px 20px; /* relleno para darle espacio al botón */
+  border-radius: 10px; /* sin borde */
+  border-color: #ffffff;
+  cursor: pointer; /* cursor de mano al pasar el mouse por encima */
+  width: auto; /* para que ocupe todo el ancho disponible */
+}
+
+.container button:hover {
+  background-color: #4996df; /* color verde claro al pasar el mouse por encima */
+}
+
+.element{
+  width: 200px;
+  border: solid red;
+}
+
+.element h1{
+  color: white;
+  text-align: center;
+}
+
+.element p{
+  color: white;
+  text-align: center;
+}
